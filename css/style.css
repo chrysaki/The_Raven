@@ -58,6 +58,8 @@ article .container {
 
 article .container p {
   color: #fff;
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 25px;
 }
 
 article section {
