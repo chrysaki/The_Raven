@@ -48,6 +48,12 @@ article .container {
   width: 100%;
 
   text-align: center;
+  
+  border-radius: 20px;
+  background-color: rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.4);
 }
 
 article .container p {
