@@ -3,6 +3,10 @@ body, html {
   margin: 0;
 }
 
+article * {
+  font-family: 'Bilbo Swash Caps', cursive;
+}
+
 .parallax [class*="bg__"] {
   position: relative;
   background-attachment: fixed;
@@ -39,10 +43,6 @@ body, html {
   box-shadow: 0 1px 0.125em #333;
 }
 
-.parallax .capture * {
-  font-family: 'Bilbo Swash Caps', cursive;
-}
-
 .parallax .capture p {
   font-size: 22px;
   margin-bottom: 9px;
@@ -63,7 +63,9 @@ article .container {
   width: 100%;
 
   text-align: center;
-  
+}
+
+article .poem {
   border-radius: 20px;
   background-color: rgba(0,0,0,0.4);
   -webkit-box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.4);
@@ -71,10 +73,14 @@ article .container {
   box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.4);
 }
 
-article .container p {
+article .poem p {
   color: #fff;
-  font-family: 'Bilbo Swash Caps', cursive;
   font-size: 25px;
+}
+
+article .container h3 {
+  font-family: 'Amatic SC', cursive !important;
+  font-size: 40px;
 }
 
 article section {
