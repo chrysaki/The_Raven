@@ -103,11 +103,11 @@ $(document).ready(function() {
     $(window).scroll(function() {
         if($(window).scrollTop() + $(window).height() == $(document).height()) {
             $('.bg__bazz').css({"background-image": "url('./images/raven4.jpg')", "transition": "background 1.5s linear"});
-            $('.bg__bazz .container').append("<p>Nevermore...!<p>");
+            $('.bg__bazz .container').append("<h3>Nevermore...!<h3>");
         } else {
             $('.bg__bazz').css({"background-image": "url('./images/raven.jpg')"});
             $('.bg__bazz .container').empty();
         }
     });
-    
+
 });
