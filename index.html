@@ -8,7 +8,7 @@
     <link rel="icon"
             type="image/png"
               href="images/rav.png">
-              
+
     <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
 </head>
@@ -26,7 +26,7 @@
     </div>
     <div class="bg__bar">
       <section>
-        <div class="container">
+        <div class="container poem">
           <p>
             Once upon a midnight dreary, while I pondered weak and weary,<br>
             Over many a quaint and curious volume of forgotten lore,<br>
@@ -185,6 +185,13 @@
 <!-- include jQuery -->
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+function preloadImage(url)
+{
+    var img = new Image();
+    img.src = "/images/*.jpg";
+}
+</script>
 
 </body>
 </html>
